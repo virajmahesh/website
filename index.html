@@ -44,10 +44,14 @@
         color: #000;
         text-decoration: underline;
       }
-      .card {
+      /* The wrapper is the size container so cqi units inside the card
+         resolve against the card's width, not the viewport. */
+      .wrap {
         width: min(100%, 35rem);
-        aspect-ratio: 7 / 4;
         container-type: inline-size;
+      }
+      .card {
+        aspect-ratio: 7 / 4;
         box-sizing: border-box;
         background: #fdfcfa;
         border-radius: 6px;
@@ -95,6 +99,7 @@
   </head>
 
   <body>
+    <div class="wrap">
     <main class="card">
       <div class="head">
         <h1>Viraj Mahesh</h1>
@@ -119,5 +124,6 @@
         </a>
       </nav>
     </main>
+    </div>
   </body>
 </html>
