@@ -1,0 +1,15 @@
+# Viraj Mahesh
+
+> Personal site of Viraj Mahesh, Group Product Manager at YouTube and UC Berkeley graduate.
+
+The site is a single contact card. A markdown version of the homepage is available at /index.md, or by requesting https://virajmahesh.com/ with the header `Accept: text/markdown`.
+
+## Pages
+
+- [Home](https://virajmahesh.com/index.md): Name, role, and contact details
+- [Resume](https://virajmahesh.com/assets/resume.pdf): Full resume (PDF)
+
+## Elsewhere
+
+- [LinkedIn](https://linkedin.com/in/virajmahesh)
+- [GitHub](https://github.com/virajmahesh)

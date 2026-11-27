@@ -1,0 +1,10 @@
+name = "virajmahesh-markdown"
+main = "index.js"
+compatibility_date = "2026-11-01"
+workers_dev = false
+
+# Only the homepage runs through the Worker; everything else goes straight to GitHub Pages.
+routes = [
+  { pattern = "virajmahesh.com/", zone_name = "virajmahesh.com" },
+  { pattern = "virajmahesh.com/index.html", zone_name = "virajmahesh.com" },
+]
